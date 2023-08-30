@@ -1,38 +1,11 @@
-<h3 align="center">
-  <a href="https://github.com/Stengo/DeskPad/blob/main/DeskPad/Assets.xcassets/AppIcon.appiconset/Icon-256.png">
-  <img src="https://github.com/Stengo/DeskPad/blob/main/DeskPad/Assets.xcassets/AppIcon.appiconset/Icon-256.png?raw=true" alt="DeskPad Icon" width="128">
-  </a>
-</h3>
-
 # DeskPad
-A virtual monitor for screen sharing
 
-<h3 align="center">
-  <a href="https://github.com/Stengo/DeskPad/blob/main/screenshot.jpg">
-  <img src="https://github.com/Stengo/DeskPad/blob/main/screenshot.jpg?raw=true" alt="DeskPad Screenshot">
-  </a>
-</h3>
+A virtual monitor for screen sharing. Details at official repository [Stengo/DeskPad](https://github.com/Stengo/DeskPad).
 
-Certain workflows require sharing the entire screen (usually due to switching through multiple applications), but if the presenter has a much larger display than the audience it can be hard to see what is happening.
+# About this fork
 
-DeskPad creates a virtual display that is mirrored within its application window so that you can create a dedicated, easily shareable workspace.
-
-# Usage
-DeskPad behaves like any other display. Launching the app is equivalent to plugging in a monitor, so macOS will take care of properly arranging your windows to their previous configuration.
-
-You can change the display resolution through the system preferences and the application window will adjust accordingly.
-
-Whenever you move your mouse cursor to the virtual display, DeskPad will highlight its title bar in blue and move the application window to the front to let you know where you are.
-
-<h3 align="center">
-  <a href="https://github.com/Stengo/DeskPad/blob/main/demonstration.gif">
-  <img src="https://github.com/Stengo/DeskPad/blob/main/demonstration.gif?raw=true" alt="DeskPad Demonstration">
-  </a>
-</h3>
+I created this fork to work with 32:9 aspect ratio. Details here: [Only shows 16:10 aspect ratios](https://github.com/Stengo/DeskPad/issues/5).
 
 # Installation
 
-There are two options for installation
-
-1. Find the latest binaries here https://github.com/Stengo/DeskPad/releases
-2. Pull down this repository and build with Xcode
+Pull down this repository and build with Xcode.
